@@ -1,0 +1,36 @@
+.contact-view {
+  width: 400px;
+  height: 130px;
+  margin: auto;
+  border-bottom: 3px;
+}
+
+.person {
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.person img {
+  float: left;
+  width: 25%;
+  height: auto;
+  margin: 0;
+  margin-left: 30px;
+  border-radius: 50%;
+  border: 5px solid var(--fifth-color);
+}
+
+.person-info {
+  padding-left: 50px;
+}
+
+.person-info h3 {
+  color: var(--fifth-color);
+}
+
+@keyframes scroll {
+  100% {
+    top: -360px;
+  }
+}

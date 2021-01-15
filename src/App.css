@@ -1,5 +1,42 @@
 .App {
   text-align: center;
+  background-size: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #092834,
+    #182f3e,
+    #263647,
+    #343d4f,
+    #424457,
+    #424457,
+    #424457,
+    #424457,
+    #343d4f,
+    #263647,
+    #182f3e,
+    #092834
+  );
 }
+.wrapper button {
+  background-color: #254e70;
+  color: white;
+  padding: 10px 80px;
+  /* margin: 4px solid #4050b5; */
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.wrapper {
+  text-align: center;
+}
+.contact-div {
+  border: 1px solid #333333;
+  margin: auto;
+  width: 50%;
+  height: 500px;
 
+  margin-bottom: 280px;
+  /* align-items: center; */
 
+  overflow: auto;
+}
